@@ -96,9 +96,7 @@ importers:
       react-use:
         specifier: ^17.5.0
         version: 17.5.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      tictactoe:
-        specifier: workspace:*
-        version: link:../TicTacToe
+     
     devDependencies:
       '@types/formidable':
         specifier: ^3.4.5
@@ -136,91 +134,6 @@ importers:
       typescript:
         specifier: ^5
         version: 5.5.2
-
-  TicTacToe:
-    dependencies:
-      '@emotion/react':
-        specifier: ^11.11.4
-        version: 11.11.4(@types/react@18.3.3)(react@18.3.1)
-      '@emotion/styled':
-        specifier: ^11.11.0
-        version: 11.11.5(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1)
-      '@fontsource/roboto':
-        specifier: ^5.0.12
-        version: 5.0.13
-      '@fuel-wallet/sdk':
-        specifier: ^0.15.2
-        version: 0.15.2(dexie@4.0.7)(fuels@0.76.12(bufferutil@4.0.8)(dexie@4.0.7)(utf-8-validate@6.0.4))
-      '@fuels/react':
-        specifier: ^0.15.3
-        version: 0.15.3(@types/react-dom@18.3.0)(@types/react@18.3.3)(fuels@0.76.12(bufferutil@4.0.8)(dexie@4.0.7)(utf-8-validate@6.0.4))(react-dom@18.3.1(react@18.3.1))(react-native@0.74.2(@babel/core@7.24.7)(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@6.0.4))(react@18.3.1)
-      '@mui/icons-material':
-        specifier: ^5.15.12
-        version: 5.15.20(@mui/material@5.15.20(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@emotion/styled@11.11.5(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.3)(react@18.3.1)
-      '@mui/material':
-        specifier: ^5.15.12
-        version: 5.15.20(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@emotion/styled@11.11.5(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@tanstack/react-query':
-        specifier: ^5.25.0
-        version: 5.48.0(react@18.3.1)
-      fuels:
-        specifier: ^0.76.0
-        version: 0.76.12(bufferutil@4.0.8)(dexie@4.0.7)(utf-8-validate@6.0.4)
-      react:
-        specifier: ^18.2.0
-        version: 18.3.1
-      react-dom:
-        specifier: ^18.2.0
-        version: 18.3.1(react@18.3.1)
-      react-hot-toast:
-        specifier: ^2.4.1
-        version: 2.4.1(csstype@3.1.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-    devDependencies:
-      '@fuels/eslint-plugin':
-        specifier: ^0.16.0
-        version: 0.16.0(eslint@8.57.0)(typescript@5.5.2)
-      '@fuels/prettier-config':
-        specifier: ^0.16.0
-        version: 0.16.0(prettier@3.3.2)
-      '@types/react':
-        specifier: ^18.2.56
-        version: 18.3.3
-      '@types/react-dom':
-        specifier: ^18.2.19
-        version: 18.3.0
-      '@typescript-eslint/eslint-plugin':
-        specifier: ^7.0.2
-        version: 7.14.1(@typescript-eslint/parser@7.14.1(eslint@8.57.0)(typescript@5.5.2))(eslint@8.57.0)(typescript@5.5.2)
-      '@typescript-eslint/parser':
-        specifier: ^7.0.2
-        version: 7.14.1(eslint@8.57.0)(typescript@5.5.2)
-      '@vitejs/plugin-react':
-        specifier: ^4.2.1
-        version: 4.3.1(vite@5.3.1(@types/node@20.14.9)(terser@5.31.1))
-      eslint:
-        specifier: ^8.56.0
-        version: 8.57.0
-      eslint-plugin-react-hooks:
-        specifier: ^4.6.0
-        version: 4.6.2(eslint@8.57.0)
-      eslint-plugin-react-refresh:
-        specifier: ^0.4.5
-        version: 0.4.7(eslint@8.57.0)
-      npm-run-all:
-        specifier: ^4.1.5
-        version: 4.1.5
-      prettier:
-        specifier: ^3.2.5
-        version: 3.3.2
-      typescript:
-        specifier: ^5.2.2
-        version: 5.5.2
-      vite:
-        specifier: ^5.1.4
-        version: 5.3.1(@types/node@20.14.9)(terser@5.31.1)
-      vite-plugin-static-copy:
-        specifier: ^1.0.1
-        version: 1.0.5(vite@5.3.1(@types/node@20.14.9)(terser@5.31.1))
 
 packages:
 

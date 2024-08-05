@@ -24,11 +24,7 @@ export default function Home() {
             Mint SRC20m tokens and transfer to others on the Fuel network.
             </HomeCard>
           </Grid>
-          <Grid item>
-            <HomeCard href="/tictactoe" title="TicTacToe">
-              Play the classic game of Tic Tac Toe on the Fuel network.
-            </HomeCard>
-          </Grid>
+         
           
         </Grid>
       </div>
